@@ -12,7 +12,7 @@ let h = 60;
 let path;
 let font;
 function preload() {
-  font = loadFont("FreeSans.otf");
+  font = loadFont("home/FreeSans.otf");
 }
 
 function setup() {
