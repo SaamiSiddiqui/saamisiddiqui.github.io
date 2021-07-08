@@ -9,6 +9,10 @@ html, body {
   font-family: "Free Sans","Times New Roman", Times, serif;
 }
 
+#sketch-holder {
+  overflow: hidden;
+}
+
 canvas {
   display: block;
 }
