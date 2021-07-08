@@ -8,6 +8,7 @@ html, body {
   padding: 0;
   font-family: "Free Sans","Times New Roman", Times, serif;
 }
+
 canvas {
   display: block;
 }
