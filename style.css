@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Free Sans';
+  src: url('home/FreeSans.otf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Free Sans","Times New Roman", Times, serif;
+}
+canvas {
+  display: block;
+}
