@@ -16,7 +16,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 500);
   rectMode(CENTER);
 
   pg = createGraphics(width, height);
