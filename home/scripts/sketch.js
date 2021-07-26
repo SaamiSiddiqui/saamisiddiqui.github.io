@@ -43,7 +43,7 @@ function setup() {
   pg.textSize(min(minSizeW, minSizeH));
   textSize(min(minSizeW, minSizeH));
 
-  path = font.textToPoints(str, x - w / 2, y + textDescent(), textSize(), {
+  path = font.textToPoints(str, x - textWidth(str) / 2, y + textDescent(), textSize(), {
     sampleFactor: 0.2,
   });
 
@@ -57,7 +57,7 @@ function setup() {
 
   pg.noStroke();
   pg.fill(255);
-  pg.text(str, x - w / 2, y + textDescent());
+  pg.text(str, x - pg.textWidth(str) / 2, y + textDescent());
 }
 
 function draw() {
